@@ -124,6 +124,8 @@
     align-items: center;
   }
 
+  /* Header */
+
   header {
     background-color: #202322;
     flex-direction: column;
@@ -135,6 +137,8 @@
     height: 40px;
     padding: 15px 0;
   }
+
+  /* Navigation */
 
   nav {
     border-top: 1px solid #3a3a3a;
@@ -161,28 +165,74 @@
 
   /* Hero */
 
+  .hero {
+    background: url('../img/hero.png') center;
+    height: 500px;
+    width: 100%;
+  }
+
+  .hero .content-wrapper {
+    margin-top: -27px;
+  }
+
+  .hero h1 {
+    padding-top: 50px;
+  }
+
   .hero-content {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    background: #527158;
+    height: 430px;
+    margin: 300px -20px 0px -20px;
+  }
+
+  .hero-item {
+    width: 85%;
+    margin-bottom: -20px;
+    padding: 15px 20px 0px 20px;
+  }
+
+  /* Newsletter Form */
+
+  form {
+    width: 100%;
+  }
+
+  input[type=text] {
+    border: none;
+    color: #a2a3a9;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    width: 100%;
+  }
+
+  input[type=submit] {
+    background: #2a423a;
+    border: none;
+    color: #e2e3ed;
+    padding: 20px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 107%;
   }
 
   /* Features */
 
-  .features-conter {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+  .features {
+    background: url('../img/features.png') center;
+    margin-top: 365px;
+  }
+
+  .features .content-wrapper {
+    padding-top: 55px;
   }
 
   .features-content h2 {
     margin-bottom: 60px;
-  }
-
-  .features-content article {
-    width: 63%;
-    margin: 30px 0;
   }
 
   .features-content .features-items {
@@ -190,16 +240,54 @@
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    text-align: center;
+  }
+
+  .features-content article {
+    width: 63%;
+    margin: 30px 0;
   }
 
   .features-content p {
-    margin: 0;
+    padding-top: 40px;
   }
 
+  /* Reviews */
+
+  .reviews {
+    background: #2a423a;
+    padding-bottom: 50px;
+  }
+
+  .reviews .content-wrapper {
+    margin-top: -100px;
+    padding-top: 25px;
+  }
+
+  .reviews img {
+    width: 100%;
+  }
+
+  /* Footer */
+
   footer {
+      background: #202322;
       flex-direction: column;
+      margin-top: -100px;
       text-align: center;
     }
+
+  footer .content-wrapper {
+      margin-top: -55px;
+    }
+  
+  footer article.contact {
+    padding-bottom: 55px;
+  }
+
+  footer article.social {
+    margin-bottom: -55px;
+  }
 
   
   /* Tablet Styles */
