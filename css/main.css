@@ -100,10 +100,15 @@
     margin: 0 50px;
   }
 
+  .features,
+  .reviews,
+  .footer-content {
+    margin: 100px 0;
+  }
+
   header,
   footer,
-  .features-content,
-  .features-item {
+  .features-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +119,8 @@
   }
 
   .logo {
-    width: 100%;
+    width: 220px;
+    height: 40px;
   }
   nav ul {
     list-style-type: none;
@@ -124,27 +130,112 @@
     display: inline-block;
   }
 
+  /* Hero */
+
   .hero-content {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-  }
-
-  .features-content {
     flex-direction: column;
   }
 
-  .features-item p {
-    width: 44%;
-    text-align: center;
+  /* Features */
+
+  .features-conter {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .features-content h2 {
+    margin-bottom: 60px;
+  }
+
+  .features-content article {
+    width: 63%;
+    margin: 30px 0;
+  }
+
+  .features-content .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .features-content p {
+    margin: 0;
   }
 
   footer {
-    flex-direction: column;
-    text-align: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+  
+  /* Tablet Styles */
+
+  @media (min-width: 768px) {
+
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    /* Hero */
+
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    .hero-item {
+      width: 33%;
+    }
+
+    .hero h1 {
+      width: 75%;
+    }
+
+
+    /* Features */
+    .features article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      flex-basis: 50%;
+    }
+    
+    .features .features-item-description {
+      width: 50%;
+    }
+
+    /* Reviews */
+
+    .reviews-content {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .reviews-content article {
+      width: 50%;
+    }
+
+    /* Footer */
+
+    footer .footer-content {
+      width: 65%;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
   }
-
-
 
   
   /* ==========================================================================
