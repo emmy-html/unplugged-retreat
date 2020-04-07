@@ -97,7 +97,7 @@
   /* Main Styles */
 
   body {
-    margin: 0 50px;
+    margin: 0 20px;
   }
 
   .features,
@@ -122,12 +122,14 @@
     width: 220px;
     height: 40px;
   }
+
   nav ul {
     list-style-type: none;
   }
 
   nav ul li {
     display: inline-block;
+    margin-right: 60px;
   }
 
   /* Hero */
@@ -176,6 +178,14 @@
   /* Tablet Styles */
 
   @media (min-width: 768px) {
+
+    body {
+      margin: 0 70px;
+    }
+
+    nav ul li {
+      padding-left: 40px;
+    }
 
     header {
       flex-direction: row;
@@ -237,6 +247,29 @@
 
   }
 
+  /* Desktop Styles */
+
+  @media (min-width: 1200px) {
+    body {
+      margin: 0px 120px;
+    }
+
+    nav ul li {
+      padding-left: 40px;
+    }
+
+    .features article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      flex-basis: 30%;
+    }
+    
+    .features .features-item-description {
+      width: 50%;
+    }
+  }
   
   /* ==========================================================================
      Helper classes
