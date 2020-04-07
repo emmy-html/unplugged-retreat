@@ -308,123 +308,126 @@
 
 
   
-  /* Tablet Styles */
+/* Tablet Styles */
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
 
-    .content-wrapper {
-      margin: 0 60px;
-    }
-
-    nav {
-      border-top: none;
-      width: inherit;
-    }
-
-    nav ul li {
-      padding-left: 40px;
-    }
-
-    header {
-      margin: 0 -60px;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    .logo {
-      margin: 0 0 0 60px;
-    }
-
-    /* Hero */
-
-    .hero {
-      background-size: 100%;
-    }
-
-    .hero .content-wrapper {
-      height: 600px;
-    }
-
-    .hero-content {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row;
-      margin: 340px -60px;
-      height: 330px;
-      padding: 0 55px;
-    }
-
-    .hero-item {
-      width: 40%;
-    }
-
-    .hero h1 {
-      width: 75%;
-    }
-
-    /* Features */
-
-    .features .content-wrapper {
-      margin-top: -50px;
-    }
-
-    .features article {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: column wrap;
-      flex-basis: 50%;
-    }
-    
-    .features .features-item-description {
-      width: 50%;
-    }
-
-    /* Reviews */
-
-    .reviews-content {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .reviews-content article {
-      width: 50%;
-    }
-
-    .reviews-content img {
-      width: 95%;
-    }
-
-    /* Footer */
-
-    footer .content-wrapper {
-      width: 100%;
-    }
-  
-    .footer-content {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-
-    footer article.contact {
-      padding-bottom: 0px;
-    }
-  
-    footer article.social {
-      margin-top: -40px;
-      margin-bottom: 0px;
-    }
-
+  .content-wrapper {
+    margin: 0 60px;
   }
+
+  nav {
+    border-top: none;
+    width: inherit;
+  }
+
+  nav ul li {
+    padding-left: 40px;
+  }
+
+  header {
+    margin: 0 -60px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 0 0 0 60px;
+  }
+
+  /* Hero */
+
+  .hero {
+    background-size: 100%;
+    height: 500px;
+  }
+
+  .hero .content-wrapper {
+    height: 645px;
+  }
+
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 290px -60px;
+    height: 370px;
+    padding: 0px 55px;
+  }
+
+  .hero-item {
+    width: 40%;
+  }
+
+  .hero h1 {
+    width: 50%;
+  }
+
+  /* Features */
+
+  .features .content-wrapper {
+    margin-top: -50px;
+  }
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+  
+  .features .features-item-description {
+    width: 50%;
+  }
+
+  /* Reviews */
+
+  .reviews-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .reviews-content article {
+    width: 50%;
+  }
+
+  .reviews-content img {
+    width: 95%;
+  }
+
+  /* Footer */
+
+  footer .content-wrapper {
+    width: 100%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer article.contact {
+    padding-bottom: 0px;
+  }
+
+  footer article.social {
+    margin-top: -40px;
+    margin-bottom: 0px;
+  }
+
+}
 
   /* Desktop Styles */
 
-  @media (min-width: 1100px) {
+  @media (min-width: 1200px) {
 
     .content-wrapper {
       margin: 0 120px;
     }
+
+    /* Hero */
 
     header {
       margin: 0 -120px;
@@ -439,6 +442,32 @@
       padding-left: 40px;
     }
 
+    .hero {
+      background-size: cover;
+      background-position: center;
+      height: 650px;
+    }
+
+    .hero h1 {
+      width: 45%;
+    }
+
+    .hero .hero-content {
+      margin: 490px -120px;
+      height: 270px;
+      padding: 0px 200px;
+    }
+
+    /* Features */
+
+    .features {
+      margin-top: 315px;
+    }
+
+    .features .content-wrapper {
+      padding: 75px 0px;
+    }
+
     .features article {
       display: flex;
       justify-content: center;
@@ -449,6 +478,12 @@
     
     .features .features-item-description {
       width: 50%;
+    }
+
+    /* Reviews */
+
+    .reviews .content-wrapper {
+      padding: 75px 0;
     }
   }
   
