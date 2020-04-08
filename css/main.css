@@ -108,6 +108,15 @@
     font-family: 'Poppins', sans-serif;
   }
 
+  h1 {
+    font-weight: 600;
+  }
+
+  h2,
+  h3 {
+    font-weight: 500;
+  }
+
   .content-wrapper {
     margin: 0 20px;
   }
@@ -546,6 +555,10 @@
     }
 
     /* Features */
+
+    .features h2 {
+      width: 60%;
+    }
 
     .features .content-wrapper {
       padding: 75px 0px;
