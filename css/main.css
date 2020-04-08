@@ -192,6 +192,7 @@
     background: #527158;
     height: 430px;
     margin: 0px -20px 0px -20px;
+    padding: 5px 0px;
   }
 
   .newsletter-item {
@@ -215,6 +216,7 @@
   input[type=submit] {
     background: #2a423a;
     box-sizing: border-box;
+    display: inline-block;
     border: none;
     color: #e2e3ed;
     padding: 20px 15px;
