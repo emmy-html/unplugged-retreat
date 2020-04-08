@@ -202,10 +202,6 @@
 
   /* Newsletter Form */
 
-  form {
-    width: 100%;
-  }
-
   input[type=text] {
     border: none;
     color: #a2a3a9;
@@ -354,9 +350,11 @@
   nav {
     border-top: none;
     width: inherit;
+    height: 100px;
   }
 
   nav ul li {
+    padding-top: 20px;
     padding-left: 40px;
   }
 
@@ -378,7 +376,8 @@
   }
 
   .hero h1 {
-    width: 50%;
+    width: 70%;
+    font-size: 2.55rem;
   }
 
   .hero .content-wrapper {
@@ -510,7 +509,12 @@
       margin: 0 0 0 120px;
     }
 
+    nav {
+      height: 100px;
+    }
+
     nav ul li {
+      padding-top: 20px;
       padding-left: 40px;
     }
 
@@ -520,17 +524,20 @@
       background-size: cover;
       background-position: center;
       height: 650px;
+      margin-top: 27px;
     }
 
     .hero h1 {
-      width: 45%;
+      width: 55%;
+      font-size: 3.15rem;
+      margin: 0;
     }
 
     /* Newsletter */
 
     .newsletter .newsletter-content {
       margin: 0px -120px;
-      height: 270px;
+      height: 300px;
       padding: 0px 200px;
     }
 
