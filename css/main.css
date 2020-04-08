@@ -111,10 +111,11 @@
     margin: 0 20px;
   }
 
+
   .features,
   .reviews,
   .footer-content {
-    margin: 100px 0;
+    padding: 50px 0;
   }
 
   header,
@@ -180,19 +181,21 @@
     padding-top: 50px;
   }
 
-  .hero-content {
+  /* Newsletter */
+
+  .newsletter-content {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     background: #527158;
     height: 430px;
-    margin: 280px -20px 0px -20px;
+    margin: 0px -20px 0px -20px;
   }
 
-  .hero-item {
+  .newsletter-item {
     width: 85%;
-    margin-bottom: -20px;
+    margin-bottom: -40px;
     padding: 15px 20px 0px 20px;
   }
 
@@ -226,7 +229,6 @@
   .features {
     background: url('../img/features.png') center;
     background-size: cover;
-    margin-top: 365px;
   }
 
   .features .content-wrapper {
@@ -262,12 +264,6 @@
 
   .reviews {
     background: #2a423a;
-    padding-bottom: 50px;
-  }
-
-  .reviews .content-wrapper {
-    margin-top: -100px;
-    padding-top: 25px;
   }
 
   .reviews img {
@@ -279,21 +275,12 @@
   footer {
       background: #202322;
       flex-direction: column;
-      margin-top: -100px;
       text-align: center;
     }
 
-  footer .content-wrapper {
-      margin-top: -55px;
-    }
-  
+
   footer article.contact {
     padding-bottom: 55px;
-  }
-
-  footer article.social {
-    margin-bottom: -35px;
-    justify-content: space-around;
   }
 
   footer i {
@@ -303,7 +290,7 @@
     width: 20px;
     height: 20px;
     padding: 10px;
-    margin: 0 40px;
+    margin: 0px 20px;
   }
 
   /* FAQ Page */
@@ -390,11 +377,17 @@
     height: 500px;
   }
 
+  .hero h1 {
+    width: 50%;
+  }
+
   .hero .content-wrapper {
     height: 645px;
   }
 
-  .hero-content {
+  /* Newsletter */
+
+  .newsletter-content {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -403,13 +396,11 @@
     padding: 0px 55px;
   }
 
-  .hero-item {
+  .newsletter-item {
     width: 40%;
   }
 
-  .hero h1 {
-    width: 50%;
-  }
+
 
   /* Features */
 
@@ -523,6 +514,8 @@
       padding-left: 40px;
     }
 
+    /* Hero */
+
     .hero {
       background-size: cover;
       background-position: center;
@@ -533,7 +526,9 @@
       width: 45%;
     }
 
-    .hero .hero-content {
+    /* Newsletter */
+
+    .newsletter .newsletter-content {
       margin: 490px -120px;
       height: 270px;
       padding: 0px 200px;
