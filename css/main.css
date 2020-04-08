@@ -204,6 +204,7 @@
 
   input[type=text] {
     border: none;
+    box-sizing: border-box;
     color: #a2a3a9;
     font-style: italic;
     margin-bottom: 20px;
@@ -213,12 +214,13 @@
 
   input[type=submit] {
     background: #2a423a;
+    box-sizing: border-box;
     border: none;
     color: #e2e3ed;
     padding: 20px 15px;
     text-align: center;
     text-transform: uppercase;
-    width: 107%;
+    width: 100%;
   }
 
   /* Features */
@@ -556,7 +558,7 @@
     }
     
     .features .features-item-description {
-      width: 50%;
+      width: 60%;
     }
 
     /* Reviews */
