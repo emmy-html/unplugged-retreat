@@ -439,6 +439,11 @@
     flex-direction: row;
   }
 
+  .reviews-content h2 {
+    margin: 0;    
+    padding: 0;
+  }
+
   .reviews-content article {
     width: 50%;
   }
