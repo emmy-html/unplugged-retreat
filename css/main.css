@@ -103,7 +103,8 @@
   }
 
   h1,
-  h2 {
+  h2,
+  h3 {
     font-family: 'Poppins', sans-serif;
   }
 
@@ -333,7 +334,6 @@
   .contact-us {
     background: #2a423a;
     padding: 50px 0px;
-    margin-bottom: 100px;
   }
 
   .contact-us-content {
@@ -391,8 +391,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin: 290px -60px;
-    height: 370px;
+    margin: 0px -60px;
+    height: 300px;
     padding: 0px 55px;
   }
 
@@ -529,16 +529,12 @@
     /* Newsletter */
 
     .newsletter .newsletter-content {
-      margin: 490px -120px;
+      margin: 0px -120px;
       height: 270px;
       padding: 0px 200px;
     }
 
     /* Features */
-
-    .features {
-      margin-top: 315px;
-    }
 
     .features .content-wrapper {
       padding: 75px 0px;
